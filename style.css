@@ -1,0 +1,200 @@
+body {
+    background: #eee;
+    margin: 10mm auto;
+    font-family: 'Roboto', sans-serif;
+    color: #636363;
+    font-size: 0.9rem;
+    min-width: 210mm;
+    min-height: 297mm;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+    margin: 0 0 5px 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h2 span {
+    font-size: 0.9rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+.page-margin {
+    padding: 10mm;
+}
+
+.page {
+    margin: auto;
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 10px #CCC;
+}
+
+.photo {
+    width: 40mm;
+    border: 1px solid #EEE;
+    margin-right: 15px;
+}
+
+.intro {
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.info {
+    font-size: 0.8rem;
+}
+
+.info li {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.info .icon {
+    height: 25px;
+}
+
+q {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 0.9rem;
+    display: block;
+}
+
+cite {
+    text-align: right;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.box {
+    background: #04242f;
+    padding: 10px 0;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.content p {
+    margin: 5px 0;
+    font-size: 0.7rem;
+    text-align: justify;
+}
+
+.left-gutter {
+    padding-left: 15px;
+}
+
+.small {
+    font-size: 0.6rem;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #CCC;
+    top: 20px;
+    bottom: 0;
+    left: 10px;
+    margin-left: -3px;
+}
+
+.item {
+    padding: 0  0 0 40px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.item .date {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    font-size: 0.65rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #04242f;
+    top: 12px;
+    border-radius: 50%;
+    z-index: 1;
+    left: 2px;
+}
+
+.timeline .content {
+    font-size: 0.7rem;
+}
+
+.timeline ul {
+    list-style: square;
+    margin: 0 0 5px 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5mm;
+    left: 10mm;
+    right: 10mm;
+    font-size: 0.6rem;
+    text-align: center;
+    color: #acacac;
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: #FFF;
+    }
+    .page-margin {
+        padding: 0;
+    }
+    .page {
+        margin: 0;
+        box-shadow: none;
+    }
+}
