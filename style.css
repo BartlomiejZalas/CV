@@ -101,7 +101,7 @@ cite {
 }
 
 .box {
-    background: #04242f;
+    background: #024d66;
     padding: 10px 0;
     margin: 10px 0 0 0;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ cite {
     position: absolute;
     width: 12px;
     height: 12px;
-    background-color: #04242f;
+    background-color: #024d66;
     top: 12px;
     border-radius: 50%;
     z-index: 1;
