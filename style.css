@@ -46,7 +46,7 @@ h3 {
 }
 
 .page-margin {
-    padding: 10mm;
+    padding: 5mm;
 }
 
 .page {
@@ -184,6 +184,10 @@ cite {
     font-size: 0.6rem;
     text-align: center;
     color: #acacac;
+}
+
+.pt {
+    padding-top: 8px;
 }
 
 @media print {
